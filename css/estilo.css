@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	margin: 0;
+	height: 100%;
+	font: 16px "lato", sans-serif;
+	color: #777;
+}
+
+h3{
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/*PARALLAX*/
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+	color: #FFF;
+	background-color: none;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.caixa1,.caixa2,.caixa3,.caixa4,.caixa5,.caixa6,.caixa7,
+.caixa8,.caixa9,.caixa10,.caixa11,.caixa12,.caixa13,.caixa14,
+.caixa15,.caixa16,.caixa17,.caixa18 {
+	position: relative;
+	height: 100%;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1{
+	background-image: url(../imagens/fnatic.jpg);
+}
+
+.caixa2{
+	background-image: url(../imagens/vp.png);
+}
+
+.caixa3{
+	background-image: url(../imagens/nip.jpg);
+}
+
+.caixa4{
+	background-image: url(../imagens/LDLC.jpg);
+}
+
+.caixa5{
+	background-image: url(../imagens/fnatic2.jpg);
+}
+
+.caixa6{
+	background-image: url(../imagens/fnatic3.jpg);
+}
+
+.caixa7{
+	background-image: url(../imagens/envyus.jpg);
+}
+
+.caixa8{
+	background-image: url(../imagens/luminosity.jpg);
+}
+
+.caixa9{
+	background-image: url(../imagens/SK.png);
+}
+
+.caixa10{
+	background-image: url(../imagens/astralis.jpg);
+}
+
+.caixa11{
+	background-image: url(../imagens/gambit.jpg);
+}
+
+.caixa12{
+	background-image: url(../imagens/cloud9.jpg);
+}
+
+.caixa13{
+	background-image: url(../imagens/astralis2.jpg);
+}
+
+.caixa14{
+	background-image: url(../imagens/astralis3.jpg);
+}
+
+.caixa15{
+	background-image: url(../imagens/astralis4.jpg);
+}
+
+.caixa16{
+	background-image: url(../imagens/navi.jpg);
+}
+
+.caixa17{
+	background-image: url(../imagens/faze.jpg);
+}
+
+.caixa18{
+	background-image: url(../imagens/vital.jpg);
+}
